@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+        </style>
+    <title>ATG ForeCast</title>
+</head>
+
+<body>
+    <section class="main-body">
+        <!-- <navbar class="title">
+            <h1 class="banner">ATG ForeCast</h1>
+        </navbar> -->
+
+        <main class="main-content">
+            <div class="left-box">
+                <h1 id="city-name"></h1>
+                <h3 id="today-date"></h3>
+                <h2 id="weather-type"></h2>
+            </div>
+            <div class="right-box">
+                <h1 id="temp"></h1>
+                <div class="max-min-temp">
+                    <h3 id="max-temp"></h3>
+                    <!-- <h3 id="back">/</h3> -->
+                    <h3 id="min-temp"></h3>
+                </div>
+            </div>
+        </main>
+        <div class="form-control">
+            <input type="text" id="city-input" placeholder="Search City">
+        </div>
+        <button id="submit" onclick="searchCity()">Submit</button>
+    </section>
+</body>
+
+</html>

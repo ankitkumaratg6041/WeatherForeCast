@@ -23,6 +23,23 @@ body{
   padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 900px){
+    .main-content{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form-control input{
+        width: 60%;
+    }
+    .left-box{
+        text-align: center;
+    }
+    .right-box{
+        text-align: center;
+    }
+}
+
 /* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .main-body {
       -webkit-backdrop-filter: blur(10px);
